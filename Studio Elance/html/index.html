@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+/>
+    <title>Studio Elance</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container-logo">
+        <img src="../image/logo.png" alt="Logo du Studio Elance" class="logo" />
+      </div>
+      <nav id="main-nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+          <li class="nav-item">
+            <a href="#salon" class="nav-link">Galerie</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">Contact</a>
+          </li>
+          <li class="nav-item"><a href="#map" class="nav-link">Horaire</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="section-acceuil" id="home">
+        <div class="hero-container">
+          <img
+            src="../image/salon.jpg"
+            alt="Salon de coiffure"
+            class="hero-image"
+          />
+          <div class="hero-content">
+            <h1 class="hero-title">Bienvenue au Studio Elance</h1>
+            <p class="hero-subtitle">La coiffure comme art de vivre</p>
+            <div class="hero-buttons">
+              <a href="#salon" class="btn">Voir la galerie</a>
+              <a href="#services" class="btn">Réserver un rendez-vous</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="salon" class="salon-section">
+        <div class="gallery-section">
+          <h2 class="section-title">Du Salon à la Coupe</h2>
+          <div class="image-grid">
+            <img
+              src="../image/salon_1.jpg"
+              alt="Salon 1"
+              class="gallery-item fade-in"
+            />
+            <img
+              src="../image/model_2.png"
+              alt="Modèle 2"
+              class="gallery-item fade-in"
+            />
+            <img
+              src="../image/model_3.png"
+              alt="Salon 3"
+              class="gallery-item fade-in"
+            />
+            <img
+              src="../image/salon_3.jpg"
+              alt="Modèle 3"
+              class="gallery-item fade-in"
+            />
+          </div>
+        </div>
+
+        <div class="testimonial-section">
+          <p class="section-label">Ce que nos clients disent sur nous</p>
+
+          <div class="testimonial-wrapper">
+            <div class="testimonial">
+              <p>
+                Super accueil et très à l’écoute. Je suis ressortie exactement
+                avec la coupe que je voulais, je recommande à 100% !
+              </p>
+              <cite>- Louis via Instagram</cite>
+            </div>
+
+            <div class="testimonial">
+              <p>
+                Un salon de coiffure au top ! L’équipe est très professionnelle
+                et les produits utilisés sont de qualité. Je reviendrai sans
+                hésiter.
+              </p>
+              <cite>- Marie via Google</cite>
+            </div>
+
+            <div class="testimonial">
+              <p>
+                J’ai été très bien accueillie et conseillée. Le résultat est
+                magnifique, je suis ravie de ma nouvelle coupe !
+              </p>
+              <cite>- Sophie via Facebook</cite>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-services" id="services">
+        <div class="container-services">
+          <h2 class="section-title">Nos Services</h2>
+
+          <!-- Bloc POUR ELLE -->
+          <div id="services-elle" class="services-group">
+            <h3 class="services-subtitle">Pour Elle</h3>
+            <div class="services-table-wrapper fade-in-on-scroll">
+              <table class="services-table">
+                <thead>
+                  <tr>
+                    <th>Service</th>
+                    <th>Description</th>
+                    <th>Prix</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Coupe Femme</td>
+                    <td>Coupe tendance adaptée à votre style</td>
+                    <td>30€</td>
+                  </tr>
+                  <tr>
+                    <td>Coloration</td>
+                    <td>
+                      Coloration professionnelle avec des produits de qualité
+                    </td>
+                    <td>50€</td>
+                  </tr>
+                  <tr>
+                    <td>Brushing</td>
+                    <td>Brushing élégant pour une finition parfaite</td>
+                    <td>20€</td>
+                  </tr>
+                  <tr>
+                    <td>Lissage</td>
+                    <td>Cheveux lisses longue durée avec soin kératine</td>
+                    <td>60€</td>
+                  </tr>
+                  <tr>
+                    <td>Balayage</td>
+                    <td>Effet naturel avec reflets lumineux</td>
+                    <td>70€</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <!-- Bouton "Prendre rendez-vous" -->
+            <div class="button-wrapper">
+              <a href="#" class="btn">Prendre rendez-vous</a>
+            </div>
+          </div>
+
+          <!-- Bloc POUR LUI -->
+          <div id="services-lui" class="services-group">
+            <h3 class="services-subtitle">Pour Lui</h3>
+            <div class="services-table-wrapper fade-in-on-scroll">
+              <table class="services-table">
+                <thead>
+                  <tr>
+                    <th>Service</th>
+                    <th>Description</th>
+                    <th>Prix</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Coupe Homme</td>
+                    <td>Coupe moderne pour un look soigné</td>
+                    <td>25€</td>
+                  </tr>
+                  <tr>
+                    <td>Dégradé américain</td>
+                    <td>Dégradé à blanc précis et net</td>
+                    <td>30€</td>
+                  </tr>
+                  <tr>
+                    <td>Taille de barbe</td>
+                    <td>Barbe sculptée avec soin</td>
+                    <td>15€</td>
+                  </tr>
+                  <tr>
+                    <td>Rasage traditionnel</td>
+                    <td>Rasage à l’ancienne avec serviette chaude</td>
+                    <td>20€</td>
+                  </tr>
+                  <tr>
+                    <td>Soin du cuir chevelu</td>
+                    <td>Massage et traitement fortifiant</td>
+                    <td>25€</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="button-wrapper-g">
+              <a href="#" class="btn-g">Prendre rendez-vous</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<section class="A-propos" id="about">
+  <h2>L'équipe</h2>
+  <div class="team-container">
+    <div class="team-member">
+      <img src="../image/patronne.jpg" alt="Patronne du salon" class="team-image" />
+      <div class="team-text">
+        Sylvie<br />
+        Responsable<br />
+        Passionnée par la coiffure depuis toujours,<br />
+        <strong>Sylvie</strong> vous accueille avec écoute et bienveillance.
+      </div>
+    </div>
+    <div class="team-member">
+      <img src="../image/employer.jpg" alt="Employée du salon" class="team-image" />
+      <div class="team-text">
+        Jacob<br />
+        5 ans d'ancienneté<br />
+        Créatif et précis, <br />
+        <strong>Jacob</strong> met tout son savoir-faire au service de votre style.
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="Horaire" id="map">
+  <div class="horaire-grid fade-in-on-scroll">
+    <div class="horaire-block">
+      <h3>Horaires d'ouverture</h3>
+      <p>Du mardi au vendredi : 9h00 - 19h00</p>
+      <p>Samedi : 9h00 - 18h00</p>
+      <p>Dimanche : Fermé</p>
+    </div>
+
+    <img src="../image/model_1.png" alt="Modèle 1" class="map-image" />
+
+    <img src="../image/salon_2.jpg" alt="Salon 2" class="map-image" />
+
+    <div class="horaire-block">
+      <h3>Coordonnées</h3>
+      <p>123 Rue de la Coiffure<br>Paris<br>France</p>
+      <p>01 011 01 01</p>
+      <p>studioelance@studioelance.ch</p>
+    </div>
+  </div>
+
+  <!-- Carte Google Maps en-dessous de la grille -->
+  <div class="map-container">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.999123456789!2d2.352221315674!3d48.856614079287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fddc8b8b8b7%3A0x123456789abcdef0!2sStudio%20Elance!5e0!3m2!1sfr!2sfr!4v1616161616161"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+    ></iframe>
+  </div>
+</section>
+
+    </main>
+<footer>
+  <div class="social-media-container">
+    <p class="follow-us">Suivez-nous sur les réseaux sociaux :</p>
+    <div class="social-media">
+      <a href="https://www.facebook.com/studioelance" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.instagram.com/studioelance" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.twitter.com/studioelance" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </div>
+  </div>
+  <p class="copyright">&copy; Tom Martinelli. Tous droits réservés.</p>
+</footer>
+
+    <script src="../js/script.js"></script>
+  </body>
+</html>
